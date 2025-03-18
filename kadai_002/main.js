@@ -107,14 +107,7 @@ const gameOver = id => {
     if(result == true) {
       window.location.reload();
     }
-  }, 2000);
-
-  //const result = confirm(rankCheck(score));
-
-  // OKボタンをクリックされたらリロードする
-  /*if(result == true) {
-    window.location.reload();
-  }*/
+  }, 10000);
 };
 
 
